@@ -21,12 +21,27 @@ p {
     font-family: 'Gill Sans','Gill Sans MT',Calibri,Arial,sans-serif;
 }
 
+.covid-banner {
+    background-color: #d7e9ff;
+    padding: 10px;
+}
+
+.covid-banner a {
+    color: #00356b;
+}
+
+.logo {
+    font-size: 4rem;
+    color: #00356b;
+}
+
+
 .btn {
     display: block;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
     text-decoration: none;
     padding:10px;
-    margin:1px;
+    margin:10px;
     text-transform: uppercase;
 }
 
@@ -173,4 +188,621 @@ header nav.main .main_nav_item {
     text-align: center;
     padding: 20px;
     text-decoration: none;;
+}
+
+.headings h3 {
+    font-size: 2.5rem;
+    color: #00356b;
+}
+
+.headings h2 {
+    color: #286dc0;
+    padding-top: 5rem;
+}
+
+.grid-section {
+    background-color: #00356b;
+    height: 100rem;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.out-tint {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+    position: absolute;
+    z-index: 1;
+}
+
+.out_of_grid {
+    position: absolute;
+    left: 550px;
+    margin-top: 40px;
+    background-image: url(images/ezra_stiles_college4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.out_of_grid img {
+    max-height: 700px;
+    width: 100%;
+}
+
+.out_of_grid h3 {
+    z-index: 2;
+    text-shadow:  -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-size: 4rem;
+    padding-left: 30%;
+    padding-top: 300px;
+}
+
+.out_of_grid p {
+    z-index: 2;
+    text-shadow:  -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-size: 2rem;
+    padding-left:30%;
+    padding-right: 10%;
+    padding-top: 20px;
+}
+
+.out_of_grid a {
+    z-index: 5;
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    text-decoration: none;
+    border: 1px solid white;
+    height: 50px;
+    width: 120px
+}
+
+.out_of_grid a:hover {
+    background-color: #00356b;
+    transition: .5s;
+}
+
+.grid {
+    display: grid;
+    position: absolute;
+    margin: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    z-index: 2;
+}
+
+.dropdown {
+    font-size: 1.5rem;
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.square1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #286dc0;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.square1 p {
+    color: white;
+}
+
+.square1 a {
+    font-size: 1.5rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.square1 a:hover {
+    background-color: #00356b;
+    transition: .5s;
+}
+
+.square2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url(images/char-beck-5eM6sRTCCUc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.tint2 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(92, 92, 92);
+    opacity: .5;
+    position: absolute;
+    z-index: 1;
+}
+
+.square2 a {
+    position: absolute;
+    z-index: 2;
+    text-shadow:  -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-size: 2rem;
+    padding-left: 15px;
+    padding-top: 55%;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.square2 a:hover {
+    padding-top: 50%;
+    transition: .5s;
+}
+
+.square3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #00356b;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.square3 a {
+    position: absolute;
+    z-index: 2;
+    text-shadow:  -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-size: 2rem;
+    padding-left: 15px;
+    padding-top: 55%;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.square3 a:hover {
+    padding-top: 50%;
+    transition: .5s;
+}
+
+.square4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(images/1x1_yale_school_of_architecture_23.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.square4 a {
+    position: absolute;
+    z-index: 2;
+    text-shadow:  -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-size: 2rem;
+    padding-left: 15px;
+    padding-top: 55%;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.square4 a:hover {
+    padding-top: 50%;
+    transition: .5s;
+}
+
+.tint4 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(178, 116, 0);
+    opacity: .5;
+    position: absolute;
+    z-index: 1;
+}
+
+.square5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: end;
+    background-image: url(images/brian-mcgowan-w46WZBxI_uk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 40%;
+}
+
+.square5 h1 {
+    z-index: 2;
+    text-shadow:  -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 4rem;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.square5 p {
+    font-size: 2rem;
+    text-shadow:  -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin-left: 15px;
+}
+
+.square5 a {
+    font-size: 30px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-decoration: none;
+    border: 1px solid white;
+    height: 50px;
+    width: 120px
+}
+
+.square5 a:hover {
+    background-color: #286dc0;
+    transition: .5s;
+}
+
+.square6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(images/kiona-lee-e7NPdTlYlz0-unsplash.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.square6 a {
+    position: absolute;
+    z-index: 2;
+    text-shadow:  -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-size: 2rem;
+    padding-left: 15px;
+    padding-top: 55%;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.square6 a:hover {
+    padding-top: 50%;
+    transition: .5s;
+}
+
+.square7 {
+    grid-column-start: 4;
+    grid-column-end: end;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(images/class_day6.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.square7 a {
+    position: absolute;
+    z-index: 2;
+    text-shadow:  -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-size: 2rem;
+    padding-left: 15px;
+    padding-top: 55%;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.square7 a:hover {
+    padding-top: 50%;
+    transition: .5s;
+}
+
+.tint7 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(92, 92, 92);
+    opacity: .5;
+    position: absolute;
+    z-index: 1;
+}
+
+.square8 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: end;
+    background-color: #00356b;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: absolute;
+}
+
+.square8 a {
+    position: absolute;
+    z-index: 2;
+    text-shadow:  -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-size: 2rem;
+    padding-left: 15px;
+    padding-top: 55%;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.square8 a:hover {
+    padding-top: 50%;
+    transition: .5s;
+}
+
+.square9 {
+    grid-column-start: 4;
+    grid-column-end: end;
+    grid-row-start: 4;
+    grid-row-end: end;
+    background-image: url(images/campus.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.square9 a {
+    position: absolute;
+    z-index: 2;
+    text-shadow:  -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-size: 2rem;
+    padding-left: 15px;
+    padding-top: 55%;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.square9 a:hover {
+    padding-top: 50%;
+    transition: .5s;
+}
+
+.tint9 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(178, 116, 0);
+    opacity: .5;
+    position: absolute;
+    z-index: 1;
+}
+
+.footer {
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    padding: 5px;
+}
+
+@media(max-width: 1200px) {
+    .grid-section{
+        width:100%;
+        height: 70rem;
+    }
+    .grid {
+        margin: 0px;
+    }
+    .out_of_grid{
+        left: 400px;
+        height: 750px;
+    }
+    .out_of_grid h3 {
+        font-size: 2.5rem;
+        padding-top: 150px;
+    }
+    .out_of_grid p {
+        font-size: 1rem;
+    }
+    .square1 {
+        height: 200px;
+        width: 200px;
+    }
+    .square1 a {
+        font-size: 1.5rem;
+    }
+    .square2 {
+        height: 200px;
+        width: 200px;
+    }
+    .square2 a {
+        font-size: 1.5rem;
+    }
+    .square3 {
+        height: 200px;
+        width: 200px;
+    }
+    .square3 a {
+        font-size: 1.5rem;
+    }
+    .square4 {
+        height: 200px;
+        width: 200px;
+    }
+    .square4 a {
+        font-size: 1.5rem;
+    }
+    .square5 {
+        height: 400px;
+        width: 400px;
+    }
+    .square5 h1 {
+        font-size: 2rem;
+    }
+    .square5 p {
+        font-size: 1.6rem;
+    }
+    .square6 {
+        height: 200px;
+        width: 200px;
+    }
+    .square6 a {
+        font-size: 1.5rem;
+    }
+    .square7 {
+        height: 200px;
+        width: 200px;
+    }
+    .square7 a {
+        font-size: 1.5rem;
+    }
+    .square8 {
+        height: 200px;
+        width: 200px;
+    }
+    .square8 a {
+        font-size: 1.5rem;
+    }
+    .square9 {
+        height: 200px;
+        width: 200px;
+    }
+    .square9 a {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media(max-width: 700px) {
+
+    .out_of_grid{
+        display: none;
+    }
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: 100%;
+        padding: 20px;
+    }
+    .square1{
+        grid-column-start: 1;
+        grid-column-end: end;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .square1 a {
+        margin: 20px;
+    }
+    .dropdown {
+        margin:20px;
+    }
+    .square2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        width: 100%;
+    }
+    .square5 {
+        grid-column-start: 2;
+        grid-column-end: end;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        width: 100%;
+    }
+    .square3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        width: 100%;
+    }
+    .square4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: end;
+        width: 100%;
+    }
+    .square6 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: end;
+        width: 100%;
+    }
+    .square7 {
+        grid-column-start: 3;
+        grid-column-end: end;
+        grid-row-start: 4;
+        grid-row-end: end;
+        width: 100%;
+    }
+    .square8{
+        display: none;
+    }
+    .square9{
+        display: none;
+    }
 }
